@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="calculator.js"></script>
+    <script src="jsPresentation.js"></script>
+    <title>Super Calculatrice</title>
+</head>
+<body>
+<div class="frameCalculatrice">
+    <div class="affichage">0</div>
+    <div class="cadreBouton">
+        <div class="ligneDeBouton">
+            <div id="C" class="boutonCalcul boutonCalculBig">C</div>
+            <div id="M" class="boutonCalcul clickDisable">M</div>
+            <div id="G" class="boutonCalcul boutonCalculBig" onclick="geoloclisation()">Géo</div>
+
+        </div>
+        <div class="ligneDeBouton">
+            <div id="Sin" class="boutonCalcul clickDisable">Sin</div>
+            <div id="Cos" class="boutonCalcul clickDisable">Cos</div>
+            <div id="Tan" class="boutonCalcul clickDisable">Tan</div>
+            <div id="factorial" class="boutonCalcul clickDisable">x!</div>
+
+        </div>
+        <div class="ligneDeBouton">
+            <div id="7" class="boutonCalcul">7</div>
+            <div id="8" class="boutonCalcul">8</div>
+            <div id="9" class="boutonCalcul">9</div>
+            <div id="divise" class="boutonCalcul clickDisable">/</div>
+        </div>
+        <div class="ligneDeBouton">
+            <div id="4" class="boutonCalcul">4</div>
+            <div id="5" class="boutonCalcul">5</div>
+            <div id="6" class="boutonCalcul">6</div>
+            <div id="multiplie" class="boutonCalcul clickDisable">x</div>
+        </div>
+        <div class="ligneDeBouton">
+            <div id="1" class="boutonCalcul">1</div>
+            <div id="2" class="boutonCalcul">2</div>
+            <div id="3" class="boutonCalcul">3</div>
+            <div id="soustrait" class="boutonCalcul clickDisable">-</div>
+        </div>
+        <div class="ligneDeBouton">
+            <div id="0" class="boutonCalcul">0</div>
+            <div id="virgule" class="boutonCalcul">.</div>
+            <div id="egale" class="boutonCalcul clickDisable">=</div>
+            <div id="additionne" class="boutonCalcul clickDisable">+</div>
+        </div>
+    </div>
+</div>
+<div id="position"></div>
+
+
+</body>
+</html>
